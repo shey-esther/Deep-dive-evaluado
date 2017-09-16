@@ -11,9 +11,10 @@ body {
     background-color: #f2dede;
 }
 
-body, h1 {
+body, h2 {
     color: #4b4668;
-    font-size: 4vw;
+    font-size: 3vw;
+    padding: 4%;
 }
 #airLine{
   margin-bottom: 15%;
@@ -45,7 +46,7 @@ body, h1 {
 section .texto {
     text-align: center;
     background-color: white;
-    margin: 0%;
+    padding: 3%;
 }
 /*las letras a,b,c*/
 .letter {
@@ -80,6 +81,15 @@ button.btn.btn-huge {
 .fa:hover {
     opacity: 0.8;
 }
-.fbook{
+/*.fbook{
     border-radius: 50% !important;
+}*/
+
+/*seccion dos submit*/
+.submit{
+  width: 95%;
+}
+
+.buttomc{
+  padding-bottom: 20%;
 }

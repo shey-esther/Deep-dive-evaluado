@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Chewy|Shrikhand');
+*{
+  margin: 0;
+  padding: 0;
+}
+/*cuerpo del html*/
+body {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+    background-color: #f2dede;
+}
+
+body, h1 {
+    color: #4b4668;
+    font-size: 4vw;
+}
+#airLine{
+  margin-bottom: 15%;
+}
+/*icono rosado del header*/
+.row .icon:hover{
+    opacity: 0.7;
+}
+.row .icon {
+    color: white;
+    font-size: 20px;
+    left: 5%;
+    background-color: #ff1493;
+    /*background-color: rgba(247, 56, 85, 0.56);*/
+    padding: 2%;
+    border-radius: 50%;
+}
+/*texto la pregunta*/
+.answer {
+    padding-left: 0px;
+    font-size: 3vw;
+    padding: 2%;
+}
+/*imagen el airline*/
+.image1 {
+    width: 20%;
+}
+/*las letras dentro del imput*/
+section .texto {
+    text-align: center;
+    background-color: white;
+    margin: 0%;
+}
+/*las letras a,b,c*/
+.letter {
+    color: white;
+    background-color: #4b4668;
+    padding: 1%;
+    margin: 0% 2% 0% 1%;
+    border-radius: 20%;
+}
+/*botones o imput para seleccionar*/
+button.btn.btn-huge {
+    /* background-color: #edecf0; */
+    color: #4b4668;
+    font-size: 24px;
+    font-weight: 700;
+     margin: 0 0 15px;
+    border: 1px solid #4b4668;
+    padding: 6px 44px 6px 14px;
+     width: 100%;
+    text-align: left;
+}
+/*iconos de redes sociales*/
+.fa {
+    /*background-color: #00bbff;*/
+    color: white;
+    padding: 10px;
+    /* font-size: 20px; */
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 2% 0%;
+}
+.fa:hover {
+    opacity: 0.8;
+}
+.fbook{
+    border-radius: 50% !important;
+}

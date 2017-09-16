@@ -52,7 +52,7 @@ section .texto {
 .letter {
     color: white;
     background-color: #4b4668;
-    padding: 1%;
+    padding: 0% 2%;
     margin: 0% 2% 0% 1%;
     border-radius: 20%;
 }
@@ -88,6 +88,8 @@ button.btn.btn-huge {
 /*seccion dos submit*/
 .submit{
   width: 95%;
+  height: 50px;
+  font-weight: 900;
 }
 
 .buttomc{

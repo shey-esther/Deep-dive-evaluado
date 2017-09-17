@@ -12,12 +12,12 @@ body {
 }
 
 body, h2 {
-    color: #4b4668;
-    font-size: 3vw;
-    padding: 4%;
-}
-#airLine{
-  margin-bottom: 15%;
+  color: #4b4668;
+  font-size: 3vw;
+  padding: 0% 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0%;
 }
 /*icono rosado del header*/
 .row .icon:hover{
@@ -95,3 +95,9 @@ button.btn.btn-huge {
 .buttomc{
   padding-bottom: 20%;
 }
+/*linea que carga el porcentaje - aumento*/
+.progress {
+    height: 10px;
+    margin-bottom: 5%;
+}
+/*contiene el 'span', y la 'imagen'*/

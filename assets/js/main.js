@@ -26,15 +26,13 @@ const app  = {//array de 'img', 'pregunta','alternativas','correcta',y 'asertada
     incremento : 0, //incremento el '% indefinidas'
     iniciaPreguntas : 0,//preguntas en posicion 'indefinidas'
 
+    init : function () {
+          app.dibujoHtml();//dibujara el HTML desde js.
+          app.estructura();//para la configuraciom.
+      },
+
+      estructura : function () {
+          $('.col-lg-4').on('click',app.siguiente);//al hacer click en las alternativas pasara a la siguiente.
+      },
 }
 	$(document).ready(app.init);
-
-
-// validacion chect box
-// function checkt(){
-// 	if(document.getElementById("check").checked){
-// 		document.getElementById("next").disabled=false;
-// 	}else{
-// 		document.getElementById("next").disabled=true;
-// 	}
-// }
